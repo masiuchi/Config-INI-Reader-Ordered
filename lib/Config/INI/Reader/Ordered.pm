@@ -8,6 +8,9 @@ use Config::INI::Reader;
 use vars qw(@ISA $VERSION);
 BEGIN { @ISA = qw(Config::INI::Reader) }
 
+use version;
+our $VERSION = version->parse('0.022_01');
+
 =head1 SYNOPSIS
 
 If F<family.ini> contains:
